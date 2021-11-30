@@ -1,4 +1,4 @@
-News for linux-mkspecs-action
+News for macos-mkspecs-action
 =============================
 
 This file lists the major changes between versions. For a more detailed list of
