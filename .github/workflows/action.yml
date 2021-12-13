@@ -19,7 +19,7 @@ jobs:
         config:
           - cxx_mkspec: cxx_apple_llvm120_x64
             name: Apple LLVM 12.0 64-bit
-    runs-on: [self-hosted, "${{ matrix.config.cxx_mkspec }}"]
+    runs-on: [self-hosted, "${{ matrix.config.cxx_mkspec }}", builder]
     name: ${{ matrix.config.name }}
     steps:
       - name: Checkout
