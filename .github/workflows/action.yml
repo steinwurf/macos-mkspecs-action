@@ -18,11 +18,14 @@ jobs:
       matrix:
         config:
           - arch: ARM64
-            os: macOS
-            name: Apple LLVM 12.0 64-bit (ARM)
+            os: big_sur
+            name: Apple Big Sur (ARM)
           - arch: x64
-            os: macOS
-            name: Apple LLVM 12.0 64-bit (x86)
+            os: big_sur
+            name: Apple Big Sur (x86)
+          - arch: x64
+            os: catalina
+            name: Apple Catalina (x86)
     runs-on: [self-hosted, "${{ matrix.config.os }}", "${{ matrix.config.arch }}", builder]
     name: ${{ matrix.config.name }}
     steps:
