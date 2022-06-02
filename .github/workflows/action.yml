@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Clang Version
+        run: clang --version
       - name: Configure
         env:
           GIT_SSH_COMMAND: "ssh"
