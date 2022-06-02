@@ -6,6 +6,10 @@ every change, see the Git log.
 
 Latest
 ------
+* tbd
+
+4.0.0
+-----
 * Major: Added ARM runner to workflow. Changed structure to use cxx_default and
          depend on macOS version (e.g Big Sur)
 
