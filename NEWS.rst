@@ -6,7 +6,8 @@ every change, see the Git log.
 
 Latest
 ------
-* Major: Added ARM runner to workflow.
+* Major: Added ARM runner to workflow. Changed structure to use cxx_default and
+         depend on macOS version (e.g Big Sur)
 
 3.0.0
 -----
