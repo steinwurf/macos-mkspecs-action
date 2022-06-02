@@ -6,7 +6,7 @@ every change, see the Git log.
 
 Latest
 ------
-* tbd
+* Major: Added ARM runner to workflow.
 
 3.0.0
 -----
