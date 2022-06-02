@@ -20,7 +20,7 @@ jobs:
           - arch: ARM64
             os: macOS
             name: Apple LLVM 12.0 64-bit (ARM)
-          - arch: x86
+          - arch: x64
             os: macOS
             name: Apple LLVM 12.0 64-bit (x86)
     runs-on: [self-hosted, "${{ matrix.config.os }}", "${{ matrix.config.arch }}", builder]
