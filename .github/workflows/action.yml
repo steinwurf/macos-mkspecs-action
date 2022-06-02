@@ -26,7 +26,7 @@ jobs:
           - arch: x64
             os: catalina
             name: Apple Catalina (x86)
-    runs-on: [self-hosted, "${{ matrix.config.os }}", "${{ matrix.config.arch }}", builder]
+    runs-on: [self-hosted, macOS, "${{ matrix.config.os }}", "${{ matrix.config.arch }}", builder]
     name: ${{ matrix.config.name }}
     steps:
       - name: Checkout
