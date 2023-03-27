@@ -6,6 +6,10 @@ every change, see the Git log.
 
 Latest
 ------
+* tbd
+
+7.0.0
+-----
 * Major: Removed x86 from the builds
 
 6.0.0
