@@ -21,12 +21,6 @@ jobs:
           - arch: ARM64
             os: big_sur
             name: Apple Big Sur (ARM)
-          - arch: x64
-            os: big_sur
-            name: Apple Big Sur (x86)
-          - arch: x64
-            os: catalina
-            name: Apple Catalina (x86)
     runs-on: [self-hosted, macOS, "${{ matrix.config.os }}", "${{ matrix.config.arch }}", builder]
     name: ${{ matrix.config.name }}
     steps:
